@@ -17,7 +17,7 @@ class Playermatchcontroller extends Controller
     {
         $userid = Auth::user()->id;
         $player = Player::where('user_id', '=', $userid)->first();
-        $id=$player->id;
+        $id=$player->team_id;
         $team = Team::findOrFail($id);
         return view('players.mymatch', compact('player','team'));
     }
