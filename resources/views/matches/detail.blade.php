@@ -24,7 +24,7 @@
                         </table>
                     @endforeach
 
-                    <td> <h3> Coach:  {{ $team->tm_coach}}</h3></td>
+                    <td> <h3 style="align:left"> Coach:  {{ $team->tm_coach}}</h3></td>
                 </table>
             @endforeach
 
