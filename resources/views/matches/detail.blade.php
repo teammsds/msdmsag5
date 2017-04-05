@@ -16,10 +16,10 @@
             <thead>
             <th>
                 <h1 style="color:darkgoldenrod"> Team : {{ $team->tm_name}}</h1></th></thead>
-
+                    <td> <h3 style="align:left"><u>Players</u></h3> </td>
                     @foreach ($team->players as $player)
                         <table>
-                            <tr> <h3><u>Players</u></h3> </tr>
+                           
                 <tr><td><h2><a href="{{url('/players/detail',$player->id)}}">{{ $player->p_fname}} </a></h2></td></tr>
                         </table>
                     @endforeach
