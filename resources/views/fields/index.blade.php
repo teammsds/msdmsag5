@@ -26,7 +26,9 @@
         </thead>
         <tbody>
         @foreach ($fields as $field)
+
             <tr style="font-size:12px">
+
                 <td>{{ $field->f_number }}</td>
                 <td>{{ $field->f_name }}</td>
                 <td>
@@ -42,11 +44,19 @@
                 <td>{{ $field->f_conemail }}</td>
                 <td>{{ $field->f_conphone }}</td>
                 <td>{{ $field->f_notes }}</td>
+<<<<<<< HEAD
                 <td><a  href="{{url('fields',$field->id)}}" class="btn btn-primary btn-sm">View</a></td>
                 <td><a href="{{route('fields.edit',$field->id)}}" class="btn btn-warning btn-sm">Update</a></td>
                 <td>
                     {!! Form::open(['method' => 'DELETE', 'route'=>['fields.destroy', $field->id]]) !!}
                     {!! Form::submit('Delete', ['class' => 'btn btn-danger btn-sm']) !!}
+=======
+                <td><a href="{{url('fields',$field->id)}}" class="btn btn-primary">View</a></td>
+                <td><a href="{{route('fields.edit',$field->id)}}" class="btn btn-warning">Update</a></td>
+                <td>
+                    {!! Form::open(['method' => 'DELETE', 'route'=>['fields.destroy', $field->id]]) !!}
+                    {!! Form::submit('Delete', ['class' => 'btn btn-danger']) !!}
+>>>>>>> origin/master
                     {!! Form::close() !!}
                 </td>
             </tr>
@@ -55,10 +65,14 @@
         </tbody>
 
     </table>
+<<<<<<< HEAD
     <a href="{{action('Excelcontroller@exportfields')}}" class="btn btn-primary btn-sm btn-info">Export to excel</a>
             </div>
 
 
+=======
+            </div>
+>>>>>>> origin/master
         </div>
     </div>
 </div>

@@ -27,7 +27,8 @@
         </thead>
         <tbody>
         @foreach ($schools as $school)
-            <tr style="font-size:12px">
+
+                <tr style="font-size:12px">
                 <td>{{ $school->s_number }}</td>
                 <td>{{ $school->s_name }}</td>
                 <td>{{ $school->s_street }}</td>

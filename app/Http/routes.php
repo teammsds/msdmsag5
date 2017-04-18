@@ -77,6 +77,7 @@ Route::get('laravel-version', function()
     Route::get('/about', 'HomeController@display');
     Route::resource('users', 'UsersController');
     Route::resource('roles', 'RolesController');
+
 // Exporting to Excel
     Route::get('/exportschools', 'Excelcontroller@exportschools');
     Route::get('/exportteams', 'Excelcontroller@exportteams');
@@ -85,6 +86,7 @@ Route::get('laravel-version', function()
     Route::get('/exportmatches', 'Excelcontroller@exportmatches');
     Route::get('/exporttournaments', 'Excelcontroller@exporttournaments');  
     Route::get('/exportfields', 'Excelcontroller@exportfields');    
+
 
 
 

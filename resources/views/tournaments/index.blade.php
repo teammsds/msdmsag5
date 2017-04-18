@@ -61,6 +61,7 @@
         </tbody>
 
     </table>
+
         <a href="{{action('Excelcontroller@exporttournaments')}}" class="btn btn-primary btn-info btn-sm">Export to excel</a>
             </div>
         </div>

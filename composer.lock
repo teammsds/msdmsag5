@@ -4,6 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
+
     "content-hash": "5637cb6452b33f3cbd92e9d1a9f87bd4",
     "packages": [
         {
@@ -976,6 +977,7 @@
             "time": "2017-03-22T15:43:14+00:00"
         },
         {
+<<<<<<< HEAD
             "name": "maatwebsite/excel",
             "version": "2.1.17",
             "source": {
@@ -1044,6 +1046,8 @@
             "time": "2017-04-04T18:28:12+00:00"
         },
         {
+=======
+>>>>>>> origin/master
             "name": "monolog/monolog",
             "version": "1.22.1",
             "source": {
@@ -1318,6 +1322,7 @@
             "time": "2017-03-13T16:22:52+00:00"
         },
         {
+<<<<<<< HEAD
             "name": "phpoffice/phpexcel",
             "version": "1.8.1",
             "source": {
@@ -1375,6 +1380,8 @@
             "time": "2015-05-01T07:00:55+00:00"
         },
         {
+=======
+>>>>>>> origin/master
             "name": "psr/log",
             "version": "1.0.2",
             "source": {
@@ -1608,6 +1615,7 @@
             "time": "2016-07-30T07:22:48+00:00"
         },
         {
+<<<<<<< HEAD
             "name": "symfony/css-selector",
             "version": "v3.0.9",
             "source": {
@@ -1661,6 +1669,8 @@
             "time": "2016-06-29T05:40:00+00:00"
         },
         {
+=======
+>>>>>>> origin/master
             "name": "symfony/debug",
             "version": "v3.0.9",
             "source": {
@@ -1719,6 +1729,7 @@
         },
         {
             "name": "symfony/event-dispatcher",
+<<<<<<< HEAD
             "version": "v3.2.7",
             "source": {
                 "type": "git",
@@ -1729,6 +1740,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/154bb1ef7b0e42ccc792bd53edbce18ed73440ca",
                 "reference": "154bb1ef7b0e42ccc792bd53edbce18ed73440ca",
+=======
+            "version": "v3.2.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/event-dispatcher.git",
+                "reference": "b7a1b9e0a0f623ce43b4c8d775eb138f190c9d8d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/b7a1b9e0a0f623ce43b4c8d775eb138f190c9d8d",
+                "reference": "b7a1b9e0a0f623ce43b4c8d775eb138f190c9d8d",
+>>>>>>> origin/master
                 "shasum": ""
             },
             "require": {
@@ -1775,7 +1798,11 @@
             ],
             "description": "Symfony EventDispatcher Component",
             "homepage": "https://symfony.com",
+<<<<<<< HEAD
             "time": "2017-04-04T07:26:27+00:00"
+=======
+            "time": "2017-02-21T09:12:04+00:00"
+>>>>>>> origin/master
         },
         {
             "name": "symfony/finder",
@@ -2380,6 +2407,7 @@
             "time": "2016-07-26T08:03:56+00:00"
         },
         {
+<<<<<<< HEAD
             "name": "tijsverkoyen/css-to-inline-styles",
             "version": "2.2.0",
             "source": {
@@ -2427,6 +2455,8 @@
             "time": "2016-09-20T12:50:39+00:00"
         },
         {
+=======
+>>>>>>> origin/master
             "name": "vlucas/phpdotenv",
             "version": "v2.4.0",
             "source": {
@@ -2482,12 +2512,21 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Zizaco/entrust.git",
+<<<<<<< HEAD
                 "reference": "2a05acd5f2a81afdfc87ae41340dae26f585ed1d"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/Zizaco/entrust/zipball/2a05acd5f2a81afdfc87ae41340dae26f585ed1d",
                 "reference": "2a05acd5f2a81afdfc87ae41340dae26f585ed1d",
+=======
+                "reference": "992e484f90a4d00b8ec0f42e8a59ba0b07ba1e09"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Zizaco/entrust/zipball/992e484f90a4d00b8ec0f42e8a59ba0b07ba1e09",
+                "reference": "992e484f90a4d00b8ec0f42e8a59ba0b07ba1e09",
+>>>>>>> origin/master
                 "shasum": ""
             },
             "require": {
@@ -2542,7 +2581,11 @@
                 "permission",
                 "roles"
             ],
+<<<<<<< HEAD
             "time": "2017-04-10T16:22:12+00:00"
+=======
+            "time": "2016-12-29T06:24:46+00:00"
+>>>>>>> origin/master
         }
     ],
     "packages-dev": [
@@ -3716,6 +3759,62 @@
             "time": "2015-06-21T13:59:46+00:00"
         },
         {
+<<<<<<< HEAD
+=======
+            "name": "symfony/css-selector",
+            "version": "v3.0.9",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/css-selector.git",
+                "reference": "b8999c1f33c224b2b66b38253f5e3a838d0d0115"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/css-selector/zipball/b8999c1f33c224b2b66b38253f5e3a838d0d0115",
+                "reference": "b8999c1f33c224b2b66b38253f5e3a838d0d0115",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.9"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\CssSelector\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jean-François Simon",
+                    "email": "jeanfrancois.simon@sensiolabs.com"
+                },
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony CssSelector Component",
+            "homepage": "https://symfony.com",
+            "time": "2016-06-29T05:40:00+00:00"
+        },
+        {
+>>>>>>> origin/master
             "name": "symfony/dom-crawler",
             "version": "v3.0.9",
             "source": {
@@ -3773,6 +3872,7 @@
         },
         {
             "name": "symfony/yaml",
+<<<<<<< HEAD
             "version": "v3.2.7",
             "source": {
                 "type": "git",
@@ -3783,6 +3883,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/yaml/zipball/62b4cdb99d52cb1ff253c465eb1532a80cebb621",
                 "reference": "62b4cdb99d52cb1ff253c465eb1532a80cebb621",
+=======
+            "version": "v3.2.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/yaml.git",
+                "reference": "093e416ad096355149e265ea2e4cc1f9ee40ab1a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/093e416ad096355149e265ea2e4cc1f9ee40ab1a",
+                "reference": "093e416ad096355149e265ea2e4cc1f9ee40ab1a",
+>>>>>>> origin/master
                 "shasum": ""
             },
             "require": {
@@ -3824,7 +3936,11 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
+<<<<<<< HEAD
             "time": "2017-03-20T09:45:15+00:00"
+=======
+            "time": "2017-03-07T16:47:02+00:00"
+>>>>>>> origin/master
         },
         {
             "name": "webmozart/assert",

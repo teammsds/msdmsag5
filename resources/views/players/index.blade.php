@@ -24,13 +24,13 @@
             <th>Status</th>
             <th>School Id</th>
             <th>Team Id</th>
+
             <th colspan="3">Actions</th>
         </tr>
         </thead>
         <tbody>
         @foreach ($players as $player)
-            <tr style="font-size:11px">
-            
+                <tr style="font-size:11px">
                 <td>{{ $player->p_number }}</td>
                 <td>{{ $player->p_fname }}</td>
                  <td>{{ $player->p_lname }}</td>
@@ -43,8 +43,10 @@
                 <td>{{ $player->p_estatus }}</td>
                 <td>{{ $player->school->s_number }}</td>
                 <td>{{ $player->team->tm_number }}</td>
+
                 <td><a href="{{url('players',$player->id)}}" class="btn btn-primary btn-sm">View</a></td>
                 <td><a href="{{route('players.edit',$player->id)}}" class="btn btn-warning btn-sm">update</a></td>
+
                 <td>
                     {!! Form::open(['method' => 'DELETE', 'route'=>['players.destroy', $player->id],'onsubmit' => 'return confirm("Are you sure you want to delete?")']) !!}
                     {!! Form::submit('Delete', ['class' => 'btn btn-danger']) !!}
@@ -56,6 +58,7 @@
         </tbody>
 
     </table>
+
     <a href="{{action('Excelcontroller@exportplayers')}}" class="btn btn-primary btn-info btn-sm">Export to excel</a>
 
     </div>

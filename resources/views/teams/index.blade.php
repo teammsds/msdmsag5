@@ -23,7 +23,8 @@
         </thead>
         <tbody>
         @foreach ($teams as $team)
-            <tr style="font-size:12px">
+
+                <tr style="font-size:12px">
                 <td>{{ $team->school->s_name }}</td>
                 <td>{{ $team->tm_number }}</td>
                 <td>{{ $team->tm_name }}</td>

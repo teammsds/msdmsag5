@@ -39,6 +39,7 @@
                 <td>{{ $referee->r_email }}</td>
                 <td>{{ $referee->r_phone }}</td>
                
+
                 <td><a href="{{url('referees',$referee->id)}}" class="btn btn-primary btn-sm">View</a></td>
                 <td><a href="{{route('referees.edit',$referee->id)}}" class="btn btn-warning btn-sm">Update</a></td>
                 <td>
@@ -52,8 +53,10 @@
         </tbody>
 
     </table>
+
     <a href="{{action('Excelcontroller@exportreferees')}}" class="btn btn-primary btn-info btn-sm">Export to excel</a>
             </div>
+
         </div>
     </div>
 </div>

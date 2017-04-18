@@ -39,8 +39,9 @@
         </thead>
         <tbody>
         @foreach ($matches as $match)
-            <tr style="font-size:12px">
-                <td><a href="{{url('/matches/detail',$match->id)}}">{{ $match->m_number }}</a></td>
+
+               <tr style="font-size:12px">
+               <td><a href="{{url('/matches/detail',$match->id)}}">{{ $match->m_number }}</a></td>
                 @foreach ($match->teams as $team)
                     <td>{{ $team->id}}</td>
                 @endforeach
@@ -57,6 +58,7 @@
 				<td>{{ $match->tournament->to_name }}</td>
                 @if (Auth::check())
                     @role(['admin','referee'])
+
                 <td><a style="font-size:10px" href="{{url('matches',$match->id)}}" class="btn btn-primary btn-sm">View</a></td>
                 <td><a style="font-size:10px" href="{{route('matches.edit',$match->id)}}" class="btn btn-warning btn-sm">Update</a></td>
                 <td >
@@ -74,7 +76,9 @@
         </tbody>
 
     </table>
+
     <a href="{{action('Excelcontroller@exportmatches')}}" class="btn btn-primary btn-info btn-sm">Export to excel</a>
+
 
             </div>
         </div>
