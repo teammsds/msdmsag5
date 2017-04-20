@@ -5,9 +5,11 @@
                 <div class="col-md-15 col-md-offset-0">
                     <div class="panel panel-default">
                         <div class="panel-heading">
-        <h1 style="color:gainsboro">Player Details</h1>
+        <h4 style="color:black">Player Details</h4>
+        </div>
+        <hr>
         <table class="table table-bordered table-hover">
-            <tbody>
+            <tbody style="background-color: white">
             <tr class="bg-info">
             <tr>
                 <td>Player Number</td>
@@ -42,6 +44,9 @@
 
             </tbody>
         </table>
+        <div>
+            <a href="{{url('/matches')}}" class="btn btn-primary btn-sm">Back</a>
+        </div>
     </div>
 
 

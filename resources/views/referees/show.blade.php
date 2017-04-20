@@ -1,15 +1,15 @@
 @extends('layouts.app')
 @section('content')
 
-    <<div class="container">
+    <div class="container">
         <div class="row">
             <div class="col-md-15 col-md-offset-0">
                 <div class="panel panel-default">
-                    <div class="panel-heading">
-
-        <h1 style="color:gainsboro">Referee Details</h1>
+                <div class="panel-heading">
+                <h4 style="color:black">Referee Details</h4>
+                </div>
         <table class="table table-bordered table-hover">
-            <tbody style="background-color: darkseagreen">
+            <tbody>
             <tr class="bg-info">
             <tr>
                 <td>Referee Number</td>
@@ -39,13 +39,13 @@
             
             </tbody>
         </table>
-    </div>
-
-
-
-</div>
-</div>
+        <div>
+   <a href="{{url('/referees')}}" class="btn btn-primary">Back</a>
         </div>
+
+</div>
+</div>
+</div>
 </div>
 
 

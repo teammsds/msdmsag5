@@ -38,7 +38,7 @@
 </div>
 <div class="form-group">
     {!! Form::label('m_date', 'Date:') !!}
-    {!! Form::text('m_date',null,['class'=>'form-control']) !!}
+    {!! Form::date('m_date',null,['class'=>'form-control']) !!}
 </div>
 <div class="form-group">
     {!! Form::label('m_time', 'Time:') !!}

@@ -75,6 +75,7 @@ Route::get('laravel-version', function()
     Route::get('/home', 'HomeController@index');
     Route::get('/matches/detail', 'MatchController@detail');
     Route::get('/about', 'HomeController@display');
+    Route::get('/leaderboard', 'HomeController@leaderboard');
     Route::resource('users', 'UsersController');
     Route::resource('roles', 'RolesController');
 

@@ -16,11 +16,11 @@
                     </div>
                     <div class="form-group">
                         {!! Form::label('to_sdate', 'Start Date:') !!}
-                        {!! Form::text('to_sdate',null,['class'=>'form-control']) !!}
+                        {!! Form::date('to_sdate',null,['class'=>'form-control']) !!}
                     </div>
                     <div class="form-group">
                         {!! Form::label('to_edate', 'End Date:') !!}
-                        {!! Form::text('to_edate',null,['class'=>'form-control']) !!}
+                        {!! Form::date('to_edate',null,['class'=>'form-control']) !!}
                     </div>
                     <div class="form-group">
                         {!! Form::label('to_totteams', 'Total Teams:') !!}
@@ -40,7 +40,7 @@
                     </div>
 
 <div class="form-group">
-    {!! Form::submit('Update', ['class' => 'btn btn-primary']) !!}
+    {!! Form::submit('Update', ['class' => 'btn btn-primary btn-sm']) !!}
 </div>
 </div>
 </div>

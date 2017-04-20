@@ -20,9 +20,8 @@
              <ul class="nav navbar-nav">
              <li class="active"><a href="{{url('/')}}">Home <span class="sr-only">(current)</span></a></li>
             <li><a href="{{action('HomeController@display')}}">About MSA</a></li>
-            <li><a href="#">Table</a></li>
-            <li><a href="#">Stats</a></li>
-            
+            <li><a href="{{action('HomeController@leaderboard')}}   ">Table</a></li>
+                      
             </div>
 
         <div class="collapse navbar-collapse" id="app-navbar-collapse">

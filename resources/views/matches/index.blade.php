@@ -16,7 +16,7 @@
     <hr>
     <table class="table table-striped table-bordered table-hover">
         <thead>
-        <tr class="bg-info">
+        <tr class="bg-info" style="font-size:12px">
             <th>Match Number</th>
             <th>Home Team ID</th>
             <th>Guest Team ID</th>
@@ -63,7 +63,7 @@
                 <td><a style="font-size:10px" href="{{route('matches.edit',$match->id)}}" class="btn btn-warning btn-sm">Update</a></td>
                 <td >
                     {!! Form::open(['method' => 'DELETE', 'route'=>['matches.destroy', $match->id]]) !!}
-                    {!! Form::submit( 'Delete', ['class' => 'btn btn-danger btn-sm'])!!}
+                    {!! Form::submit( 'Delete', ['class' => 'btn btn-danger btn-xs'])!!}
                     {!! Form::close() !!}
                 </td>
                     @endrole

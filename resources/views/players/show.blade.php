@@ -1,9 +1,12 @@
 @extends('layouts.app')
 @section('content')
 
-    <div class="container">
-        <h1 style="color:gainsboro">Player Details</h1>
-        <table class="table table-bordered table-hover">
+<div class="container">
+    <div class="row">
+        <div class="col-md-15 col-md-offset-0">
+            <div class="panel panel-default">
+             <h3 style="color: black">Player Details</h3>
+        <table class="table table-striped table-bordered table-hover">
             <tbody style="background-color: darkseagreen">
             <tr class="bg-info">
             <tr>
@@ -37,6 +40,9 @@
             </tr>
             </tbody>
         </table>
+        <div>
+            <a href="{{url('/matches')}}" class="btn btn-primary btn-sm">Back</a>
+        </div>
     </div>
 
 

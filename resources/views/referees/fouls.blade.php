@@ -4,8 +4,10 @@
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
                 <div class="panel panel-default">
-                    <h3> Penalty Details</h3>
+                 <div class="panel-heading">
+                    <h4 style="color: black "> Penalty Details</h4>
                     {!! Form::open(['url' => 'fouls']) !!}
+                    </div>
                     <div class="form-group">
                         {!! Form::Label('player', 'Select Player') !!}<br>
                         {!! Form::select('player_id', $players) !!}

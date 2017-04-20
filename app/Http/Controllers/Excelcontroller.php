@@ -91,4 +91,14 @@ class Excelcontroller extends Controller
             });
         })->download('xlsx'); 
     }
+    // public function exportleaderboard()
+    // {
+    //     //
+    //     $leader=Field::all();
+    //     Excel::create('Tournament data',function($excel) use($tournments) {
+    //         $excel->sheet('Sheet 1', function($sheet) use($tournments){
+    //             $sheet->fromArray($tournments);
+    //         });
+    //     })->download('xlsx'); 
+    // }
 }

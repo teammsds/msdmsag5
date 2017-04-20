@@ -21,7 +21,12 @@ class HomeController extends Controller
 
         return view('common.about');
     }
-
+    //Table Tab at home page nav bar
+    public function leaderboard()
+    
+    {
+        return view('common.leaderboard');
+    }
     /**
      * Create a new controller instance.
      *
